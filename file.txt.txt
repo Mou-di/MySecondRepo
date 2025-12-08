@@ -1,0 +1,5 @@
+Text 
+"Hello World" 
+thank you
+text file 
+don't close VScode
