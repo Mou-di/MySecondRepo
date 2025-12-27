@@ -1,99 +1,186 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+
+html{
+    padding: 2px;
 }
-body{
-padding: 10px;
-border: 5px;
-margin:20px;
-border-radius: 10px;
-width: 300px;
-background: #fefafa;
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
-img{
-width: 30px;
+
+/*This is for Section 1 css.*/
+.section1{
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
-nav
+img
 {
-background: black;
-padding: 1rem;
-}
-nav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-display: flex;
-justify-content: space-around;
-}
-nav ul li {
-display: inline;
-}
-nav ul li a {
-color: white;
-text-decoration: none;
-padding: 0.2rem;
-display: block;
-
-}
-nav ul li a:hover {
-background-color: aqua;
+width: 130px;
+height: 130px;
+float: left;
 }
 
-#boxes {
-justify-content: space-around;
+.box
+{
+    border: 1px black solid;
+    align-items: center;
+    justify-content: left;
+}
+.box1
+{
+    display: flex;
+    height: 200px;
+    flex-grow: 1;
+    width: 200px;
+    gap: 30px;
+}
+
+#box1 p
+{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+#box2
+{
+    display: flex;
+    flex-grow: 2;
+    height: 200px;
+    width: 200px;
+    text-align: left;
+    align-items: left;
     
 }
 
-.box2
+/*This is section 2 of css file.*/
+
+.section2
 {
-display: flex;
-align-items: center;
-text-align: left;
-background:  aqua;
-text-decoration: none;
+    border: 2px black solid;
+    
 }
-.box2 p
+#item1
 {
-text-align: left;
-margin: 0;
-padding: 0;
+    font-size: large;
 }
-.box3
+.section2
 {
-display: flex;
-align-items: left;
-text-align: left;
-background:  aqua;
-text-decoration: none;
-}
-.box3 p
-{
-text-align: left;
-margin: 0;
-padding: 0;
-}
-.box
-{
-display: flex;
-align-items: left;
-text-align: left;
-background:  aqua;
-text-decoration: none;
+    font-size: large;
+    background-color: rgb(18, 230, 18);
 }
 
-.login {
-border: 0;
-line-height: 2.5;
-padding: 0 20px;
-border-radius: 10px;
-background: aqua;
-}
-.box5 ,h4
+.section3
 {
-background:  aqua;
+    background-color: black;
 }
-.box6
+
+.bar {
+    border-radius: 4%; text-align: center;
+}
+.bar1
 {
-background:  aqua;
+    background-color: red;width: 60%;color: white; text-align: right;
 }
+.bar2
+{
+    background-color: red;width: 60%;color: white; text-align: right;
+}
+.bar3
+{
+    background-color: rgb(9, 119, 155);width: 60%;color: white; text-align: right;
+}
+.bar4
+{
+    background-color: green;width: 60%;color: white; text-align: right;
+}
+.bar5
+{
+    background-color: red;width: 60%;color: white; text-align: right;
+}
+
+/*This is the section 3 of the css file.*/
+
+.level1
+{
+    display: inline-block;
+    background-color: red;
+    gap: 15px;
+    height: 15px;width: 15px;
+    align-items: center;
+}
+.level2
+{
+    display: inline-block;
+    background-color: red;
+    gap: 15px;
+    height: 15px;width: 15px;
+    align-items: center;
+}
+.level3
+{
+    display: inline-block;
+    background-color: rgb(9, 119, 155);
+    gap: 15px;
+    height: 15px;width: 15px;
+    align-items: center;
+}
+.level4
+{
+    display: inline-block;
+    background-color: green;
+    gap: 15px;
+    height: 15px;width: 15px;
+    align-items: center;
+}
+.level5
+{
+    display: inline-block;
+    background-color: blue;
+    gap: 15px;
+    height: 15px;width: 15px;
+    align-items: center;
+}
+/*this code is section 3 Languages.*/
+.section3
+{
+    border: 2px;
+}
+
+    .circle1
+    { 
+        display: inline-block;
+        width: 10px; 
+        gap: 6px;
+        height: 10px; 
+        margin: 5px;
+        background: green;
+        border-radius: 50%;
+        align-items: center;
+        
+    }
+    .circle2
+    { 
+        display: inline-block; 
+        width: 10px; 
+        height: 10px; 
+        margin: 5px;
+        background: blue;
+        border-radius: 50%;
+        gap: 6px;
+        align-items: center;
+    }
+    .circle3
+    { 
+        display: inline-flex;
+        width: 10px; 
+        height: 10px; 
+        margin: 5px;
+        background: red;
+        border-radius: 50%;
+        gap: 6px;
+        align-items: center;
+    }
+
