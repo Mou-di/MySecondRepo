@@ -52,7 +52,13 @@ float: left;
     width: 200px;
     text-align: left;
     align-items: left;
-    
+}
+#box2 p
+{
+display: flex;
+text-align: left;
+box-sizing: border-box;
+margin-left: -39px;
 }
 
 /*This is section 2 of css file.*/
@@ -183,4 +189,5 @@ float: left;
         gap: 6px;
         align-items: center;
     }
+
 
